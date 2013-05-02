@@ -1,3 +1,11 @@
+New in version 1.0.4
+====================
+
+   Minor changes:
+
+   - Fixed bug in loadMAdata so that also compressed CEL-files (*.CEL.gz) can be loaded correctly.
+
+
 New in version 1.0.3
 ====================
 
