@@ -1,9 +1,22 @@
+New in version 1.0.5
+====================
+
+   Minor changes:
+
+   - Updated diffExp() to only use vennDiagram() of the limma package for Venn 
+     diagram plotting in order to correct a bug when plotting more than three 
+     circles. Also updated the corresponding man page.
+
+   - Updated the SBML section in the loadGSC() man page.
+
+
 New in version 1.0.4
 ====================
 
    Minor changes:
 
-   - Fixed bug in loadMAdata so that also compressed CEL-files (*.CEL.gz) can be loaded correctly.
+   - Fixed bug in loadMAdata so that also compressed CEL-files (*.CEL.gz) can be 
+     loaded correctly.
 
 
 New in version 1.0.3
