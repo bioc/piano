@@ -1,3 +1,14 @@
+CHANGES IN VERSION 1.2.3
+-------------------------
+
+BUG FIXES
+
+    o Improved error checking of supplied annotation in loadMAdata().
+
+    o Improved error checking of chromosome mapping in polarPlot().
+
+    o Fixed typo in loadMAdata man page.
+
 CHANGES IN VERSION 1.2.2
 -------------------------
 
