@@ -1,3 +1,10 @@
+CHANGES IN VERSION 1.2.4
+-------------------------
+
+BUG FIXES
+
+    o Fixed bug in the volcano plot in diffExp() for coloring points black.
+
 CHANGES IN VERSION 1.2.3
 -------------------------
 
