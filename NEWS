@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.2.6
+-------------------------
+
+BUG FIXES
+
+    o Fixed bug in loadMAdata() that removed duplicate entries in the annotation in 
+      an incorrect way.
+
 CHANGES IN VERSION 1.2.5
 -------------------------
 
