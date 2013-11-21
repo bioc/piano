@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.2.7
+-------------------------
+
+BUG FIXES
+
+    o Changed so that argument cutoff in consensusHeatmap() can be set to an arbitrarily
+      high number (e.g. Inf) to easily include all gene sets.
+
 CHANGES IN VERSION 1.2.6
 -------------------------
 
