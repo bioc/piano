@@ -1,3 +1,10 @@
+CHANGES IN VERSION 1.2.8
+-------------------------
+
+BUG FIXES
+
+    o Fixed bug in diffExp() that in rare cases failed to output the vennMembers.
+
 CHANGES IN VERSION 1.2.7
 -------------------------
 
