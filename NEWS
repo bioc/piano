@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.2.9
+-------------------------
+
+BUG FIXES
+
+    o Fixed a bug in consensusHetmap() so that the adjusted p-values are actually used
+     if adjusted=TRUE.
+
 CHANGES IN VERSION 1.2.8
 -------------------------
 

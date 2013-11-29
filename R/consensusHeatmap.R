@@ -10,11 +10,16 @@ consensusHeatmap <- function(resList, method="median", cutoff=5, adjusted=FALSE,
    
    # Get consensus ranks for each directionality class:
    reslist <- resList
-   nod <- consensusScores(resList=reslist,class="non",method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
-   ddu <- consensusScores(resList=reslist,class="distinct",direction="up",method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
-   ddd <- consensusScores(resList=reslist,class="distinct",direction="down",method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
-   mdu <- consensusScores(resList=reslist,class="mixed",direction="up",method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
-   mdd <- consensusScores(resList=reslist,class="mixed",direction="down",method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
+   nod <- consensusScores(resList=reslist,class="non",adjusted=adjusted,
+                          method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
+   ddu <- consensusScores(resList=reslist,class="distinct",adjusted=adjusted,
+                          direction="up",method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
+   ddd <- consensusScores(resList=reslist,class="distinct",direction="down",adjusted=adjusted,
+                          method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
+   mdu <- consensusScores(resList=reslist,class="mixed",direction="up",adjusted=adjusted,
+                          method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
+   mdd <- consensusScores(resList=reslist,class="mixed",direction="down",adjusted=adjusted,
+                          method=method,n=length(reslist[[1]]$gsc),plot=FALSE)
    
    nodPval <- nod$pMat
    dduPval <- ddu$pMat
