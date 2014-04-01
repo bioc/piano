@@ -1,10 +1,17 @@
+CHANGES IN VERSION 1.2.12
+-------------------------
+
+DOCUMENTATION
+
+    o Updated the biocViews field in the DESCRIPTION file.
+
 CHANGES IN VERSION 1.2.11
 -------------------------
 
 BUG FIXES
 
-    o Fixed a typo in the code which made it impossible to execute runGSA successfully with 
-      the option sample permutation.
+    o Fixed a typo in the code which made it impossible to execute runGSA successfully 
+	  with the option sample permutation.
 
 CHANGES IN VERSION 1.2.10
 -------------------------
