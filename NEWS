@@ -1,3 +1,10 @@
+CHANGES IN VERSION 1.4.2
+-------------------------
+
+BUG FIXES
+
+    o Fixed a bug in loadMAdata so that mas5 can now be used for normalization.
+
 CHANGES IN VERSION 1.4.1
 -------------------------
 
