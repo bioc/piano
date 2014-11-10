@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.6.2
+-------------------------
+
+BUG FIXES
+
+    o Fixed a bug in loadMAdata so that normalizing using MAS5 is now returning 
+      log2-transformed expression values.
+
 CHANGES IN VERSION 1.6.1
 -------------------------
 
