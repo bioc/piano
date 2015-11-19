@@ -1,6 +1,10 @@
-CHANGES IN VERSION 1.10 (currently 1.9.x)
+CHANGES IN VERSION 1.10.1
 -------------------------
-    o No changes yet
+
+BUG FIXES
+
+    o Fixed a bug in runGSA which returned wrong numbers for the up- and down-
+	  regulated genes, for the GSEA method.
 	
 CHANGES IN VERSION 1.8.2
 -------------------------
