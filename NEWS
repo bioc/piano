@@ -1,3 +1,11 @@
+CHANGES IN VERSION 1.10.2
+-------------------------
+
+DOCUMENTATION
+
+    o Updated the vignette R code to avoid an error in the call to biomart
+	  throught the getBM function.
+	  
 CHANGES IN VERSION 1.10.1
 -------------------------
 
