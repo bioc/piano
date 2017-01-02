@@ -1,3 +1,10 @@
+CHANGES IN VERSION 1.14.3
+-------------------------
+
+BUG FIXES
+
+    o Required functions from the snow package, used by snowfall, are now properly loaded.
+
 CHANGES IN VERSION 1.14
 -----------------------
 
