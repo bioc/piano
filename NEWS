@@ -1,7 +1,9 @@
-CHANGES IN VERSION 1.16 (devel 1.15.x)
+CHANGES IN VERSION 1.16
 -----------------------
 
-No changes yet!
+BUG FIXES
+
+    o Fix biomaRt Rchunk in vignette to avoid build error
 
 CHANGES IN VERSION 1.14.5
 -------------------------
