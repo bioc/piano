@@ -1,3 +1,10 @@
+CHANGES IN VERSION 1.16.3
+-------------------------
+
+BUG FIXES
+
+    o Fix BiocGenerics::sd and stats::sd collision when loading
+    
 CHANGES IN VERSION 1.16.2
 -------------------------
 
