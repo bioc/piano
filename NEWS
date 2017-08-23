@@ -1,3 +1,10 @@
+CHANGES IN VERSION 1.16.4
+-------------------------
+
+BUG FIXES
+
+    o  Fix R CMD check NOTE on calling require(snowfall)
+
 CHANGES IN VERSION 1.16.3
 -------------------------
 
