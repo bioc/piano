@@ -104,7 +104,7 @@ loadGSC <- function(file, type="auto", addInfo) {
       gscList <- list()
       i <- 1
       tmp <- try(suppressWarnings(
-      while(length(l<-scan(con,nlines=1,what="character",quiet=T)) > 0) {
+      while(length(l<-scan(con,nlines=1,what="character",quiet=T, sep="\t")) > 0) {
          if(addUserInfo == "skip") addInfo <- rbind(addInfo,l[1:2])
          tmp <- l[3:length(l)]
          gscList[[l[1]]] <- unique(tmp[tmp != "" & tmp != " " & !is.na(tmp)])
